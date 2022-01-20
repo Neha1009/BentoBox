@@ -3,7 +3,7 @@ Online Food Ordering System Website using basic PHP, SQL, HTML & CSS. You can us
 
 Admin Login & Password (You can change this in phpmyadmin):<br/>
 Login: admin <br>
-Password: admin<br>
+Password: admin <br>
 
 # Screenshots
 <img src="https://github.com/kaushikjadhav01/Online-Food-Ordering-Web-App/blob/master/screenshots/99-banner.png">
