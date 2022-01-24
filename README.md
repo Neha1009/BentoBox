@@ -3,7 +3,7 @@ Online Food Ordering System Website using basic PHP, SQL, HTML & CSS. You can us
 
 Admin Login & Password (You can change this in phpmyadmin):<br/>
 Login: admin <br>
-Password: admin <br>
+Password: admin<br>
 
 # Screenshots
 <img src="https://github.com/kaushikjadhav01/Online-Food-Ordering-Web-App/blob/master/screenshots/99-banner.png">
@@ -33,4 +33,11 @@ Find how the project looks in <b>screenshots folder</b> Or <a href="https://gith
 <li>Open your web browser and check if you got the website running on your localhost (http://localhost:8080/www/)</li>
 </ol>
 
-
+# Authors
+## Kaushik Jadhav
+<ul>
+<li>Github:https://github.com/kaushikjadhav01</li>
+<li>Medium:https://medium.com/@kaushikjadhav01</li>
+<li>LinkedIn:https://www.linkedin.com/in/kaushikjadhav01/</li>
+<li>Portfolio:http://kaushikjadhav01.github.io/</li>
+</ul>
