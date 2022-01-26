@@ -4,7 +4,8 @@ from time import sleep
 
 def test_about_text():
     driver = webdriver.Chrome(r"C:\Users\panka\Downloads\chromedriver_win32\chromedriver.exe")
-    driver.get('http://localhost/devops1/')
+    driver.get('http://localhost/BentoBox/')
+    sleep(3)
     about_xpath = '//a[text()="About Us"]'
     about_text = 'ABOUT US'
     about_menu = driver.find_element_by_xpath(about_xpath)
@@ -13,7 +14,7 @@ def test_about_text():
     about_menu.click()
     print('Opening about page...')
 
-    sleep(5)
+    sleep(6)
     driver.close()
 
 

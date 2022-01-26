@@ -4,7 +4,8 @@ from time import sleep
 
 def test_faq_text():
     driver = webdriver.Chrome(r"C:\Users\panka\Downloads\chromedriver_win32\chromedriver.exe")
-    driver.get('http://localhost/devops1/')
+    driver.get('http://localhost/BentoBox/')
+    sleep(3)
     faq_xpath = '//a[text()="FAQ"]'
     faq_text = 'FAQ'
     faq_menu = driver.find_element_by_xpath(faq_xpath)

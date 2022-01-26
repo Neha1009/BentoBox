@@ -5,7 +5,8 @@ from time import sleep
 def test_order_now_text():
     try:
         driver = webdriver.Chrome(r"C:\Users\panka\Downloads\chromedriver_win32\chromedriver.exe")
-        driver.get('http://localhost/devops1/')
+        driver.get('http://localhost/BentoBox/')
+        sleep(3)
         order_now_xpath = '//a[text()="Order Now"]'
         order_now_text = 'ORDER NOW'
         order_now_menu = driver.find_element_by_xpath(order_now_xpath)
@@ -26,7 +27,7 @@ def test_order_now_text():
         login_button = driver.find_element_by_xpath(login_xpath)
         login_button.click()
 
-        sleep(5)
+        sleep(6)
 
     finally:
         driver.close()
