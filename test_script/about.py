@@ -4,7 +4,7 @@ from time import sleep
 
 def test_about_text():
     driver = webdriver.Chrome(r"C:\Users\panka\Downloads\chromedriver_win32\chromedriver.exe")
-    driver.get('http://localhost/BentoBox/')
+    driver.get('http://localhost/BentoBox-1/')
     sleep(3)
     about_xpath = '//a[text()="About Us"]'
     about_text = 'ABOUT US'

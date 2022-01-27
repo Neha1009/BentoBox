@@ -5,7 +5,7 @@ from time import sleep
 def test_our_food_text():
     try:
         driver = webdriver.Chrome(r"C:\Users\panka\Downloads\chromedriver_win32\chromedriver.exe")
-        driver.get('http://localhost/BentoBox/')
+        driver.get('http://localhost/BentoBox-1/')
         sleep(3)
         our_food_xpath = '//a[text()="Our Food"]'
         our_food_text = 'OUR FOOD'

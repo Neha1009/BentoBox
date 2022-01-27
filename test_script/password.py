@@ -5,7 +5,7 @@ from time import sleep
 def test_order_now_text():
     try:
         driver = webdriver.Chrome(r"C:\Users\panka\Downloads\chromedriver_win32\chromedriver.exe")
-        driver.get('http://localhost/BentoBox/')
+        driver.get('http://localhost/BentoBox-1/')
         sleep(3)
         order_now_xpath = '//a[text()="Order Now"]'
         order_now_text = 'ORDER NOW'
