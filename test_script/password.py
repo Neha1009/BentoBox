@@ -27,7 +27,7 @@ def test_order_now_text():
         login_button = driver.find_element_by_xpath(login_xpath)
         login_button.click()
 
-        sleep(6)
+        sleep(3)
 
     finally:
         driver.close()
