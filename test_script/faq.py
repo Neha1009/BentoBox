@@ -14,5 +14,5 @@ def test_faq_text():
     faq_menu.click()
     print('Opening faq page...')
 
-    sleep(5)
+    sleep(3)
     driver.close()
