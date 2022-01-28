@@ -16,6 +16,6 @@ def test_faq_text():
 
     print('Opening Order now page...')
 
-    sleep(5)
+    sleep(3)
 
     driver.close()
