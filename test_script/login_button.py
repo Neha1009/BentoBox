@@ -21,5 +21,5 @@ def test_faq_text():
     login_button.click()
     print('Opening login page...')
 
-    sleep(5)
+    sleep(4)
     driver.close()
