@@ -14,7 +14,7 @@ def test_about_text():
     about_menu.click()
     print('Opening about page...')
 
-    sleep(6)
+    sleep(3)
     driver.close()
 
 
