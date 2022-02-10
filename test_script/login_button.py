@@ -10,6 +10,7 @@ def test_faq_text():
     order_now_text = 'ORDER NOW'
     order_now_menu = driver.find_element_by_xpath(order_now_xpath)
     assert order_now_text == order_now_menu.text, "text not matching"
+    
     print('expected text is matching')
     order_now_menu.click()
     print('Opening order now page...')
