@@ -14,6 +14,7 @@ def test_our_food_text():
         print('expected text is matching')
         our_food_menu.click()
         print('Opening our food page...')
+        
         sleep(3)
 
     finally:
